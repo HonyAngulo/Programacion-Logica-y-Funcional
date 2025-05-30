@@ -1,0 +1,32 @@
+--Cargar archivo--
+consult().
+
+-- Mostrar todos los sensores--//consulta agregada
+estado_sensores.
+
+-- Visualizar base de conocimientos--
+
+listing.
+listing(activar_riego).//consulta agregada
+listing(hora_adecuada).//consulta agregada
+listing(recomendacion).//consulta agregada
+
+
+--consultas--
+
+Activar_riego.
+hora_adecuada.
+
+--¿ Hay alerta de calor?--//consulta agregada
+
+alerta_calor.
+
+--¿Hay alerta de sequia?--//consulta agregada
+
+alerta_sequia.
+
+--Obtener estado del sistema--
+
+pronostico_lluvia(x).
+estado_riego(x).
+recomendacion.
